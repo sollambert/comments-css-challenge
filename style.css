@@ -131,8 +131,9 @@ body {
     padding-top: .25em;
     padding-bottom: .25em;
     margin-right: .5em;
+    margin-bottom: 1.5em;
     background-color: #f5f6fa;
-    height: 5em;
+    height: 6em;
     width: 2em;
     border-radius: .5em;
     align-self: center;
@@ -199,21 +200,25 @@ body {
 .comment-text {
     padding-right: 1em;
     padding-left: 1em;
-    /* padding-top: .25em;
-    padding-bottom: .25em; */
+    /* padding-top: .25em;*/
+    /* padding-bottom: -.5em; */
+    margin-bottom: -.1em;
     grid-column: 2/12;
     grid-row: 3;
     color: #65686d;
+    line-height: 1.5;
 }
 
 .comment-you {
     background-color: #5858b8;
     border-radius: .25em;
     color: white;
-    padding-top: .1em;
-    padding-bottom: .2em;
-    padding-right: .3em;
-    padding-left: .3em;
+    padding-top: .2em;
+    padding-bottom: .3em;
+    padding-right: .5em;
+    padding-left: .5em;
+    margin-right: .4em;
+    margin-left: .4em;
     font-size: .8em;
     display: flex;
     flex-direction: column;
