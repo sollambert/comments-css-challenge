@@ -116,6 +116,10 @@ body {
     padding-left: 1em
 }
 
+.like-count {
+    margin-bottom: -.4em;
+}
+
 .like-counter {
     grid-column: 1 / 2;
     grid-row: 1 / 4 ;
