@@ -19,6 +19,10 @@ body {
     display: block; /* For Firefox */
 }
   
+.profile-link {
+    font-weight: bold;
+    color: #565bb3;
+}
 
 .new-comment {
     padding-right: 1em;
