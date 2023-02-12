@@ -15,6 +15,7 @@ body {
 
 [contenteditable=true]:empty:before{
     content: attr(placeholder);
+    color: #cfd0d1;
     pointer-events: none;
     display: block; /* For Firefox */
 }
